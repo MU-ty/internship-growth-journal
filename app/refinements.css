@@ -1,0 +1,108 @@
+/* Shared readability and keyboard refinements, preserving the journal theme. */
+[hidden] {
+  display: none !important;
+}
+.journal-alert {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 14px 20px;
+  color: var(--destructive);
+  background: var(--card);
+  border: 1px solid var(--destructive);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+.journal-alert button {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.data-table th,
+.data-table td,
+.multidim th,
+.multidim td,
+.data-table select,
+.filter-pills button,
+.code-note-button span,
+.people-list button strong,
+.people-list button small,
+.modal label,
+.modal input,
+.modal textarea,
+.notebook-meta label,
+.code-notebook > label,
+.code-field-head strong {
+  font-size: 14px;
+}
+.summary,
+.hero-copy,
+.notes-field textarea {
+  font-size: 16px;
+}
+.difficulty,
+.area-chip,
+.status-chip,
+.code-field-head span,
+.notebook-actions > span,
+.period,
+.highlights,
+.foundation-summary small,
+.graph-node small {
+  font-size: 12px;
+}
+.code-note-button,
+.filter-pills button,
+.row-actions button,
+.card-actions button,
+.account-menu > a {
+  min-height: 36px;
+}
+.row-actions button,
+.card-actions button {
+  min-width: 36px;
+}
+button:focus-visible,
+a:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+.modal-close {
+  min-width: 40px;
+  min-height: 40px;
+}
+.section-heading p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.notebook-actions > span {
+  line-height: 1.6;
+}
+@media (max-width: 560px) {
+  .hero.compact {
+    min-height: auto;
+    padding-top: 28px;
+  }
+  .hero h1 {
+    font-size: clamp(30px, 9vw, 41px);
+  }
+  .content-section {
+    padding-inline: 16px;
+  }
+  .journal-alert {
+    margin-inline: 16px;
+  }
+  .note-actions {
+    gap: 8px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation: none !important;
+    transition: none !important;
+  }
+}

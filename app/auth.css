@@ -1,0 +1,255 @@
+.auth-shell {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 20px;
+  background: #f8f6f0;
+  color: #263b33;
+  font-family: var(--font-sans-cn), sans-serif;
+}
+.auth-register-link {
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #7a877c;
+  margin-top: 18px;
+}
+.auth-register-link a {
+  color: #375b46;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-left: 6px;
+}
+.auth-registration-notice {
+  padding: 12px;
+  border-radius: 10px;
+  background: #f4f0e6;
+  color: #776747;
+  font-size: 12px;
+  line-height: 1.8;
+  margin-top: 8px;
+}
+.auth-card {
+  width: 100%;
+  max-width: 460px;
+  padding: 36px;
+  border: 1px solid #e0e5dc;
+  border-radius: 24px;
+  background: #fffefa;
+  box-shadow: 0 18px 60px #263b330b;
+}
+.auth-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 28px;
+}
+.auth-brand svg {
+  color: #426c54;
+}
+.auth-eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: #7a897d;
+  margin-bottom: 8px;
+}
+.auth-card h1 {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+  margin-bottom: 12px;
+}
+.auth-description {
+  color: #6d7b70;
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.auth-form label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+.auth-form input {
+  height: 44px;
+  border-color: #d7dfd5;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 16px;
+  background: #fff;
+}
+.auth-form input:disabled {
+  color: #55685b;
+  background: #f1f3ed;
+  opacity: 1;
+}
+.auth-password {
+  position: relative;
+}
+.auth-password input {
+  padding-right: 45px;
+}
+.auth-password button {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  color: #64786a;
+}
+.auth-primary {
+  margin-top: 12px;
+  height: 44px;
+  background: #375b46;
+  color: #fff;
+  border-radius: 10px;
+}
+.auth-primary:hover {
+  background: #294535;
+}
+.auth-error {
+  color: #a13b31;
+  background: #fff1ec;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 24px 0 18px;
+  color: #8b9489;
+  font-size: 11px;
+}
+.auth-divider::before,
+.auth-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #e4e8df;
+}
+.auth-alternative {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  border: 1px solid #d7dfd5;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  color: #375b46;
+}
+.auth-alternative:hover {
+  background: #f0f4ec;
+}
+.auth-help {
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+  font-size: 12px;
+  line-height: 1.8;
+  color: #7a877c;
+}
+.auth-help svg {
+  width: 16px;
+  min-width: 16px;
+  margin-top: 3px;
+}
+.auth-help a,
+.auth-hint a {
+  color: #375b46;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.auth-footer {
+  margin-top: 24px;
+  font-size: 12px;
+  color: #8a9486;
+}
+.auth-hint {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #7a877c;
+}
+.auth-back {
+  display: inline-flex;
+  gap: 7px;
+  align-items: center;
+  color: #6d7b70;
+  font-size: 12px;
+  margin-bottom: 24px;
+}
+.auth-back svg {
+  width: 15px;
+}
+.auth-success {
+  background: #eff5ec;
+  padding: 20px;
+  border-radius: 14px;
+  line-height: 1.8;
+}
+.auth-success svg {
+  color: #426c54;
+}
+.auth-success h2 {
+  font-size: 19px;
+  font-weight: 600;
+}
+.auth-success p {
+  font-size: 13px;
+  margin: 8px 0 20px;
+}
+.account-menu .account-settings-link {
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  white-space: nowrap;
+  padding: 6px 9px;
+}
+.account-menu button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: inherit;
+  padding: 4px;
+}
+.account-menu button svg {
+  width: 17px;
+}
+.account-menu button:focus-visible {
+  outline: 2px solid #426c54;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+@media (max-width: 600px) {
+  .auth-shell {
+    padding: 30px 16px;
+  }
+  .auth-card {
+    padding: 26px 22px;
+    border-radius: 20px;
+  }
+  .auth-card h1 {
+    font-size: 24px;
+  }
+  .account-menu {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .account-menu .account-settings-link {
+    padding: 4px;
+    font-size: 11px;
+  }
+}

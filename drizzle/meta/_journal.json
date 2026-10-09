@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1788442726640,
+      "tag": "0000_quick_thanos",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1788449101145,
+      "tag": "0001_awesome_shaman",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1789277256835,
+      "tag": "0002_shiny_serpent_society",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1789277339645,
+      "tag": "0003_purple_major_mapleleaf",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1789302938657,
+      "tag": "0004_crazy_jackpot",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1791032323905,
+      "tag": "0005_interview_records",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1791038726462,
+      "tag": "0006_account_password_login",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1791041185879,
+      "tag": "0007_interview_experiences",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1791125438398,
+      "tag": "0008_typical_imperial_guard",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1791127027198,
+      "tag": "0009_daily_tyger_tiger",
+      "breakpoints": true
+    }
+  ]
+}
